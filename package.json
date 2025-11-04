@@ -32,6 +32,7 @@
 		"dev": "n8n-node dev",
 		"lint": "n8n-node lint",
         "lint:fix": "n8n-node lint --fix",
+		"test": "npm run lint",
 		"release": "n8n-node release",
 		"prepublishOnly": "npm run build && npm run lint"
 	},
